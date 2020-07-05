@@ -87,48 +87,61 @@
             // 
             // Maquina
             // 
+            this.Maquina.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.Maquina.DataPropertyName = "Maquina";
             this.Maquina.HeaderText = "Maquina";
             this.Maquina.Name = "Maquina";
             this.Maquina.ReadOnly = true;
+            this.Maquina.Width = 120;
             // 
             // TBL
             // 
+            this.TBL.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.TBL.DataPropertyName = "Tbl";
             this.TBL.HeaderText = "TBL";
             this.TBL.Name = "TBL";
             this.TBL.ReadOnly = true;
+            this.TBL.Width = 76;
             // 
             // Endereço
             // 
+            this.Endereço.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.Endereço.DataPropertyName = "Endereço";
             this.Endereço.HeaderText = "Endereço";
             this.Endereço.Name = "Endereço";
             this.Endereço.ReadOnly = true;
+            this.Endereço.Width = 130;
             // 
             // PN
             // 
+            this.PN.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.PN.DataPropertyName = "PN";
             this.PN.HeaderText = "Part Number";
             this.PN.Name = "PN";
             this.PN.ReadOnly = true;
+            this.PN.Width = 161;
             // 
             // Quantidade
             // 
+            this.Quantidade.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.Quantidade.DataPropertyName = "TotalMontado";
             this.Quantidade.HeaderText = "Quantidade";
             this.Quantidade.Name = "Quantidade";
             this.Quantidade.ReadOnly = true;
+            this.Quantidade.Width = 149;
             // 
             // PickUp
             // 
+            this.PickUp.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.PickUp.DataPropertyName = "TotalPickupError";
             this.PickUp.HeaderText = "PickUp";
             this.PickUp.Name = "PickUp";
             this.PickUp.ReadOnly = true;
+            this.PickUp.Width = 107;
             // 
             // Recog
             // 
+            this.Recog.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.Recog.DataPropertyName = "TotalRecogError";
             this.Recog.HeaderText = "Recog";
             this.Recog.Name = "Recog";
@@ -136,25 +149,30 @@
             // 
             // TotalPerdido
             // 
+            this.TotalPerdido.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.TotalPerdido.DataPropertyName = "TotalPerdido";
             this.TotalPerdido.HeaderText = "Total Perdido";
             this.TotalPerdido.Name = "TotalPerdido";
             this.TotalPerdido.ReadOnly = true;
+            this.TotalPerdido.Width = 165;
             // 
             // Porcentagem
             // 
+            this.Porcentagem.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.Porcentagem.DataPropertyName = "Porcentagem";
             this.Porcentagem.HeaderText = "   %   ";
             this.Porcentagem.Name = "Porcentagem";
             this.Porcentagem.ReadOnly = true;
+            this.Porcentagem.Width = 93;
             // 
             // Status
             // 
+            this.Status.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.Status.DataPropertyName = "Status";
             this.Status.HeaderText = "Status";
             this.Status.Name = "Status";
             this.Status.ReadOnly = true;
-            this.Status.Width = 400;
+            this.Status.Width = 99;
             // 
             // Form1
             // 
